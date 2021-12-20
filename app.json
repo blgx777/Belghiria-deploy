@@ -12,6 +12,11 @@
             "description": "Raganork code (QR scan cheythappo kittiya code). Type here yours Raganork code.",
             "required": true
         },
+       "C_CODE": {
+            "description": "Your country code. Use 91 for India!.",
+            "required": true,
+            "value": "91"
+        },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it!",
             "required": false
@@ -53,6 +58,11 @@
         },
         "CHATBOT": {
             "description": "Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
+        "CALL_BLOCK": {
+            "description": "Set true if you need to block people who calls you 📞.",
             "required": true,
             "value": "false"
         },
