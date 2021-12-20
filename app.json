@@ -26,6 +26,16 @@
             "required": true,
             "value": "en"
         },
+        "M_REPLY": {
+            "description": "Auto reply when mentioned.",
+            "required": true,
+            "value":"Why do you mentioned me?"
+        },
+        "M_REPLY_VAR": {
+            "description": "Auto reply true/false.",
+            "required": true,
+            "value":"true"
+},
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
